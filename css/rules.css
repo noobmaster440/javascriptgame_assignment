@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html { 
+    background: url("../assets/bg1.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+
+div {
+    border-radius: 10px;
+    background-color:white;;
+    opacity: 0.8;
+    position: absolute;
+}
+
+.main-container {
+    padding: 1.5%;
+    height: auto;
+    width: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+ol {
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+li {
+    margin-top: 1%;
+    
+}
+
+img {
+    margin-top: 0.5%;
+    width: 3%;
+}
+
+.img-back {
+    margin-left: 0.5%;
+}
+
+.img-audio {
+    float: right;
+    margin-right: 0.5%;
+}
+
+img:hover {
+    transition: ease;
+    width: 4%;
+    cursor: pointer;
+}
